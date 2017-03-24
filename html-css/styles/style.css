@@ -3,25 +3,48 @@
 
 body {
 	font-family:'Open Sans', sans-serif;
+	margin: 5px;
 }
 
 .content {
-	padding-bottom:100px; /* Height of the footer element */
+	padding-bottom:100px; 
 }
 
-/* sticky footer */
+/* Footer */
 .stickyfooter {
-	background:#ffab62;
-	width:100%;
-	height:100px;
-	position:fixed;
-	bottom:0;
-	left:0;
+	background: #ffab62;
+	width: 100%;
+	/*height: 80px;*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding: 20px 0 0 0;
 }
 
-.current-page { color: black;  text-decoration: none;}
+.current-page a, .current-page { color: black;  text-decoration: none;}
 
-/* Images */
-.landing-banner {
-	width: 100%;
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: #2F6CE8;
+}
+
+/* Box-model */
+.box-model {
+	background-color: #FFB36C;
+	border: solid 1px black;
+	padding: 5px;
+	margin: 10px;
+}
+
+.underline-free {
+	text-decoration: none;
 }
