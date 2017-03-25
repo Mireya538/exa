@@ -45,6 +45,10 @@ body {
 	margin: 10px;
 }
 
+.interline {
+	text-decoration: line-through;
+}
+
 .underline-free {
 	text-decoration: none;
 }
