@@ -27,7 +27,7 @@
 		content: " |";
 	}
 
-	.float-left, .nav-right ul li, .content section {
+	.float-left, .nav-right ul li, .content aside {
 		float: left;
 	}
 
@@ -52,7 +52,7 @@
 
 @media (min-width: 904px) {
 	/* Columns */
-	.content section:first-child {
+	.content aside:first-child {
 		float: none;
 		width: 98%;
 		margin-left: 1%;
@@ -70,7 +70,7 @@
 
 @media (min-width: 1154px) {
 	/* Columns */
-	.content section:first-child {
+	.content aside:first-child {
 		float: left;
 		width: 38%;
 		margin-right: 20px; 

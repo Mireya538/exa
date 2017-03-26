@@ -3,7 +3,7 @@
 	content: " |";
 }
 
-.float-left, .nav-right ul li, .content section {
+.float-left, .nav-right ul li, .content aside {
 	float: left;
 }
 
@@ -46,7 +46,7 @@
 
 @media (max-width: 1300px) {
 	/* Columns */
-	.content section:first-child {
+	.content aside:first-child {
 		float: none;
 		width: 98%;
 		margin-left: 1%;
@@ -64,12 +64,12 @@
 
 @media (max-width: 944px) {
 	/* Columns */
-	.content section {
+	.content aside {
 		float: none;
 		width: 98%;
 	}
 	/* Nav  */
-	.float-left, .nav-right ul li, .content section, .nav-right {
+	.float-left, .nav-right ul li, .content aside, .nav-right {
 		float: none;
 	}
 
